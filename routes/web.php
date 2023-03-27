@@ -14,5 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/home', function () {
-    return view('home');
-});
+    // Creo delle variabili da richiamare
+    $message = "Hello World!";
+    return view('home', compact("message"));
+})->name("homepage");

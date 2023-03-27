@@ -13,7 +13,7 @@
 
 <body>
     <div>
-        <h1>Hello Laravel (Finally!)</h1>
+        <h1>Hello World (Finally!)</h1>
     </div>
 
 

@@ -14,7 +14,7 @@
 
 <body>
     <div>
-        <h1>{{$message}}</h1>
+        <h1>About Us</h1>
     </div>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
@@ -41,6 +41,7 @@
             </div>
         </div>
     </nav>
+
 
     <main>
 

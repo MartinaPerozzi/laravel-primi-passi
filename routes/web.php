@@ -13,8 +13,20 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/', function () {
+    // Creo delle variabili da richiamare
+    $message = "Hello World!";
+    return view('home', compact("message"));
+    // B.P_Nomino la rotta
+})->name("homepage");
+
 Route::get('/home', function () {
     // Creo delle variabili da richiamare
     $message = "Hello World!";
     return view('home', compact("message"));
-})->name("homepage");
+    // B.P_Nomino la rotta
+});
+Route::get('/about_us', function () {
+    return view('about_us');
+    // B.P_Nomino la rotta
+})->name("about_us");

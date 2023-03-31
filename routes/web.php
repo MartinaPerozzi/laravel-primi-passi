@@ -29,4 +29,14 @@ Route::get('/home', function () {
 Route::get('/about_us', function () {
     return view('about_us');
     // B.P_Nomino la rotta
-})->name("about_us");
+})->name("about");
+
+Route::get('/shop', function () {
+    return view('shop');
+    // B.P_Nomino la rotta
+})->name("shop");
+
+Route::get('/contacts', function () {
+    return view('contacts');
+    // B.P_Nomino la rotta
+})->name("contacts");
